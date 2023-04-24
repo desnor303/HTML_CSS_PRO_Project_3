@@ -1,0 +1,144 @@
+/* =========================== Sora fonts ===========================  */
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-ExtraLight.woff2") format("woff2"),
+        url("sora/Sora-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-Bold.woff2") format("woff2"),
+        url("sora/Sora-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-Light.woff2") format("woff2"),
+        url("sora/Sora-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-LightItalic.woff2") format("woff2"),
+        url("sora/Sora-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-ExtraBoldItalic.woff2") format("woff2"),
+        url("sora/Sora-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-BoldItalic.woff2") format("woff2"),
+        url("sora/Sora-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-Medium.woff2") format("woff2"),
+        url("sora/Sora-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-ExtraBold.woff2") format("woff2"),
+        url("sora/Sora-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-Italic.woff2") format("woff2"),
+        url("sora/Sora-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-ExtraLightItalic.woff2") format("woff2"),
+        url("sora/Sora-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-ThinItalic.woff2") format("woff2"),
+        url("sora/Sora-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-Regular.woff2") format("woff2"),
+        url("sora/Sora-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora SemBd Ita";
+    src: url("sora/Sora-SemiBoldItalic.woff2") format("woff2"),
+        url("sora/Sora-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-SemiBold.woff2") format("woff2"),
+        url("sora/Sora-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-Thin.woff2") format("woff2"),
+        url("sora/Sora-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url("sora/Sora-MediumItalic.woff2") format("woff2"),
+        url("sora/Sora-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
