@@ -71,6 +71,7 @@ img {
 }
 
 .center {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -613,4 +614,44 @@ img {
 
 .news-item__link:hover {
     color: var(--bold-primary-color);
+}
+
+/* ======================= welcome ======================== */
+
+.welcome {
+    margin-top: 170px;
+}
+
+.welcome-content {
+    padding: 100px 0px;
+}
+.welcome-title {
+    position: relative;
+}
+.welcome-title::after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 136px;
+    height: 2px;
+    background: var(--primary-color);
+}
+.welcome-desc {
+    margin-top: 38px;
+    width: 617px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: var(--light-black-color);
+}
+
+.welcome-btn {
+    margin-top: 38px;
+    min-width: 205px;
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
 }
