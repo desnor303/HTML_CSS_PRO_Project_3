@@ -5,9 +5,11 @@
 :root {
     font-size: 62.5%;
     font-family: "Sora";
+    font-style: normal;
     --primary-color: #2e80ce;
     --white-color: #ffffff;
     --bold-primary-color: #10375c;
+    --light-black-color: #575f66;
 }
 
 body {
@@ -170,4 +172,65 @@ img {
     right: 3px;
     width: 39.3%;
     height: 75.93%;
+}
+
+/* ==================== how-to ==================== */
+
+.how-to {
+    padding: 100px 0px;
+    background: var(--white-color);
+}
+
+.how-to__title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    color: var(--bold-primary-color);
+}
+.how-to__desc {
+    width: 470px;
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+.how-to__row {
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.how-to__row__item {
+    border: 16px solid var(--primary-color);
+    padding: 43px 42px;
+    flex: 1;
+}
+
+.row__item_image {
+    width: 67.52px;
+}
+.row__item_title {
+    margin-top: 20.25px;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: var(--bold-primary-color);
+}
+.row__item_desc {
+    margin-top: 28px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--light-black-color);
+}
+.row__item_link {
+    font-weight: 400;
+    font-size: 1.6;
+    line-height: 1.75;
+    color: var(--light-black-color);
+    margin-top: 18px;
+}
+
+.row__item_link:hover {
+    color: var(--primary-color);
 }
