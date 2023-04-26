@@ -14,6 +14,12 @@
 
 body {
     font-size: 1.6rem;
+    --white-filter: invert(100%) sepia(6%) saturate(7481%) hue-rotate(58deg)
+        brightness(121%) contrast(108%);
+    --primary-color-filter: invert(29%) sepia(97%) saturate(913%)
+        hue-rotate(183deg) brightness(116%) contrast(77%);
+    --services-normal-filter: invert(100%) sepia(51%) saturate(1846%)
+        hue-rotate(178deg) brightness(105%) contrast(98%);
 }
 
 /* ==================== common ==================== */
@@ -50,11 +56,18 @@ body {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: var(--white-color);
 }
 img {
-    display: block;
+    display: inline-block;
+}
+.circle-icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* ==================== header ==================== */
 .header {
@@ -174,6 +187,100 @@ img {
     height: 75.93%;
 }
 
+/* ==================== services ==================== */
+.services {
+    padding: 170px;
+}
+
+.services__title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--bold-primary-color);
+}
+.services__desc {
+    width: 470px;
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--light-black-color);
+}
+.services__row {
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__image {
+    width: 48.72%;
+    height: 570px;
+    object-fit: cover;
+}
+
+.services__detail {
+    width: 51.28%;
+}
+
+.services__panel {
+    margin-left: 130px;
+}
+
+.services__list {
+    padding: 20px;
+}
+
+.services__list_icon {
+    width: 60px;
+    height: 60px;
+    background: #eff6fd;
+    margin-right: 19px;
+    flex-shrink: 0;
+    color: var(--bold-primary-color);
+    background: var(--white-color);
+}
+
+.services__panel div:nth-of-type(1):hover .services__list_icon,
+.services__panel div:nth-of-type(2):hover .services__list_icon,
+.services__panel div:nth-of-type(3):hover .services__list_icon {
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
+.services__panel > div:nth-of-type(1):hover,
+.services__panel > div:nth-of-type(2):hover,
+.services__panel > div:nth-of-type(3):hover {
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
+}
+
+.services__list__title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #10375c;
+}
+
+.services__list__desc {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+    margin-top: 8px;
+}
+
+.services-btn {
+    margin-top: 75px;
+    min-width: 205px;
+}
+
+.services-btn {
+    width: 205px;
+    padding: 21px 12px;
+}
 /* ==================== how-to ==================== */
 
 .how-to {
@@ -234,3 +341,5 @@ img {
 .row__item_link:hover {
     color: var(--primary-color);
 }
+
+/* ==================== how-to ==================== */
