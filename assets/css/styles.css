@@ -68,6 +68,11 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
 /* ==================== header ==================== */
 .header {
     background: var(--bold-primary-color);
@@ -76,6 +81,7 @@ img {
 }
 .header--sticky {
     position: sticky;
+    z-index: 1;
 }
 .header__content {
     align-items: center;
@@ -206,8 +212,6 @@ img {
     font-size: 1.8rem;
     line-height: 1.67;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     color: var(--light-black-color);
 }
 .services__row {
@@ -407,4 +411,76 @@ img {
     font-size: 1.8rem;
     line-height: 1.67;
     color: var(--white-color);
+}
+
+/* ==================== Members ==================== */
+
+.members__title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--bold-primary-color);
+    text-align: center;
+}
+
+.members__btn {
+    margin-top: 38px;
+    margin-bottom: 70px;
+    min-width: 205px;
+    width: 205px;
+}
+.members__list {
+    gap: 34px;
+}
+.members__members-image {
+    width: 262px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.members__detail {
+    margin-top: 12px;
+}
+
+.members__sub-title {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: var(--bold-primary-color);
+}
+
+.members__desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: var(--light-black-color);
+}
+
+.members__nav {
+    margin-top: 38px;
+    width: 90px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.members__nav-left,
+.members__nav-right {
+    width: 36px;
+    height: 36px;
+    color: var(--white-color);
+    background: var(--bold-primary-color);
+    border: 1px solid var(--bold-primary-color);
+}
+
+.members__nav-left:hover,
+.members__nav-right:hover {
+    color: var(--light-black-color);
+    background: var(--white-color);
+    border: 1px solid var(--light-black-color);
 }
